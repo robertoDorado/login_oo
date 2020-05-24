@@ -1,0 +1,1 @@
+Sistema de login e senha orientado a objeto feito em PHP, com sistema de proteção ao e-mail do cliente onde o usuário não pode cadastrar duas vezes a mesma conta.

@@ -1,0 +1,82 @@
+.corpo{
+    background:rgb(1, 107, 1);
+
+    animation-name: efect;
+    animation-duration:1s;
+}
+.form{
+    height:450px;
+    width:400px;
+    background:rgb(33, 218, 33);
+    margin-left:35%;
+    margin-top:8%;
+    padding-left:8%;
+    padding-top:2%;
+    border-radius:40px;
+    box-shadow:3px 3px 10px 3px;
+}
+.form h1{
+    color:white;
+}
+.form span{
+    color:white;
+}
+.form input{
+    outline:0;
+}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=submit]:hover{
+    color:green;
+}
+input[type=submit]{
+    color:black;
+    border:none;
+    padding-top:0.7%;
+    padding-bottom:0.7%;
+    background:white;
+}
+.btn-cadastro{
+    background:white;
+    border:2px black;
+}
+.btn-cadastro a{
+    color:black;
+}
+.btn-cadastro a:hover{
+    color:green;
+}
+.btn-login{
+    margin-left:16%;
+    background:white;
+    border:5px;
+    padding-top:0.7%;
+    padding-bottom:0.7%;
+}
+.btn-login a{
+    color:black;
+}
+.btn-login a:hover{
+    text-decoration:none;
+    color:green;
+}
+.erro{
+    height:30px;
+    width:200px;
+    background-color:rgba(255, 0, 0, 0.5);
+    border:solid 1px red;
+}
+.erro label{
+    color:white;
+    text-align:center;
+    padding-left:5%;
+    padding-top:1%;
+}
+
+@keyframes efect {
+    0% {opacity: 0; transform: translate(-60px,0)}
+    100% {opacity: 1; transform: translate(0,0)}
+}
